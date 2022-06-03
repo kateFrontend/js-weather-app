@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="weather-app">
+        
+        <div class="card">
+            <div class="search">
+                <input type="text" spellcheck="false" placeholder="Search" id="input">
+                <button class="btn"><i class="fas fa-search"></i></button>
+            </div>
+
+        <div class="container">
+            <div>
+                <h1 class="temp"></h1>
+                <div class="city-time">
+                    <h1 class="name" id="city"></h1>
+                </div>
+                <div class="weather">
+                    <img src="" alt="" id="icon"> 
+                </div> 
+            </div>
+
+            <button class="details-btn">Weather Details</button>
+
+            <ul class="details">
+                <li>
+                    <span>Feels like</span>
+                    <span id="feelsLike">30&#176;</span>
+                </li>
+                <li>
+                    <span>Variation</span>
+                    <span id="variation">Min: 25&#176; Max: 28&#176;</span>
+                </li>
+                <li>
+                    <span>Conditions</span>
+                    <span class="conditions">Sunny</span>
+                </li>
+                <li>
+                    <span>Cloudy</span>
+                    <span class="cloud">89%</span>
+                </li>
+                <li>
+                    <span>Humidity</span>
+                    <span class="humidity">64%</span>
+                </li>
+                <li>
+                    <span>Wind</span>
+                    <span class="wind">8 km/h</span>
+                </li>
+            </ul>
+        </div>
+</div>
+
+</div>
+
+
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+</html>
