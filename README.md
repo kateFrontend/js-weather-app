@@ -8,7 +8,7 @@
 JavaScript Weather application with API from https://openweathermap.org/ and unsplash API for changing pictures.
 
   <p>
-    <a href="https://book-a-tour.glitch.me/">View Demo Here</a>
+    <https://weather-search-app.glitch.me/>View Demo Here</a>
   </p>
 
 ## Built With
@@ -17,9 +17,9 @@ JavaScript Weather application with API from https://openweathermap.org/ and uns
  
 <!-- USAGE EXAMPLES -->
 ## Usage
-<p>One page website providing information about various tourist tours.</p>
-<p>Beautiful Vanilla JavaScript slides transition.</p>
-<p>Countdown to the start of tour sales. </p>
+<p></p>
+<p></p>
+<p></p>
 <p>Application is responsive for all mobile devices.</p>
 
-Project Link: https://github.com/kateFrontend/Book-a-tour
+Project Link: https://github.com/kateFrontend/Weather-app
