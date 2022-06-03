@@ -1,6 +1,6 @@
 const api = { 
     endpoint: "https://api.openweathermap.org/data/2.5/", 
-    key: "b01193e04c7209dc0677489f0589f4ba" 
+    key: "..." 
 }
 
 
