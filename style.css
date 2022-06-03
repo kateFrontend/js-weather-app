@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 100vh;
+    background-image: url("https://source.unsplash.com/1600x900/?nature,water");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+}
+
+.weather-app {
+    width: 100%;
+    max-width: 570px;
+    padding: 3em;
+    color: white;
+    border-radius: 15px; 
+    background: rgba(0,0,0,0.6);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
+    
+}
+
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1em 0;
+}
+
+.btn {
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 44px;
+    width: 44px;
+    background: #b3b2b22b;
+    color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+    font-size: 90%; 
+}
+
+.btn:hover {
+    background: #edecec6b;
+}
+
+.details-btn {
+    text-align: center;
+    color: white;
+    background: #cfcdcd2b;
+    padding: 0.5em 2em;
+    font-size: 1.2em;
+    width: 100%;
+    border-radius:24px;
+    margin-top: 1em;
+}
+
+.details-btn:hover {
+    background: #edecec6b;
+}
+
+input#input {
+    border: none;
+    outline: none;
+    padding: 0.5em 1em;
+    border-radius: 24px;
+
+    color: black;
+    font-family: inherit;
+    font-size: 105%;
+    width: calc(100% - 50px);
+}
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    font-size: 5em;
+}
+
+.city-time {
+    padding: 0 1em;
+}
+
+
+.details {
+    margin-top: 2em;
+    padding: 1em 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    display: none;
+}
+
+.details li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 1em 0;
+}
+
+
+@media all and (max-width: 900px) {
+  
+    body {
+      height: 220vh;
+  }
+
+}
+
+@media all and (max-width: 500px) {
+  
+      body {
+        height: 100vh;
+    }
+
+    .weather-app {
+        width: 95%;
+        padding: 2em;
+    }
+
+    .city-time {
+        font-size: 0.7em;
+    }
+
+    .temp {
+        font-size: 3em;
+    }
+
+}
+
+
+@media all and (max-width: 330px) {
+    .temp {
+        font-size: 2em;
+    }
+
+    .name {
+        font-size: 1.3em;
+    }
+
+    .details-title {
+        font-size: 1em;
+
+    }
+
+    .details {
+        font-size: 0.8em;
+    }
+    
+}
+
+
