@@ -8,7 +8,7 @@
 JavaScript Weather application with API from https://openweathermap.org/ and unsplash API for changing pictures.
 
   <p>
-  <a https://weather-search-app.glitch.me/">View Demo Here</a>
+ <a href="https://weather-search-app.glitch.me/">View Demo Here</a>
   </p>
 
 ## Built With
