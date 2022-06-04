@@ -5,7 +5,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-JavaScript Weather application with API from https://openweathermap.org/ and unsplash API for changing pictures.
+<p>JavaScript Weather application is an excellent project which helps to understand the core basics of the DOM and teaches how to use fetch API, to call and get data from a third-party service.</p>
 
   <p>
  <a href="https://weather-search-app.glitch.me/">View Demo Here</a>
@@ -17,8 +17,8 @@ JavaScript Weather application with API from https://openweathermap.org/ and uns
  
 <!-- USAGE EXAMPLES -->
 ## Usage
-<p>JavaScript Weather application is an excellent project which helps to understand the core basics of the DOM and teaches how to use fetch API, to call and get data from a third-party service.</p>
-<p></p>
+<p>JavaScript Weather application with API from https://openweathermap.org/ and unsplash API for changing pictures.</p>
+<p>You need to create an account here https://openweathermap.org/ and get your API KEY.</p>
 <p></p>
 <p>Application is responsive for all mobile devices.</p>
 
