@@ -17,7 +17,7 @@ JavaScript Weather application with API from https://openweathermap.org/ and uns
  
 <!-- USAGE EXAMPLES -->
 ## Usage
-<p></p>
+<p>JavaScript Weather application is an excellent project which helps to understand the core basics of the DOM and teaches how to use fetch API, to call and get data from a third-party service.</p>
 <p></p>
 <p></p>
 <p>Application is responsive for all mobile devices.</p>
