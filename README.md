@@ -1,6 +1,6 @@
 <div>
   <h1>Weather app</h1> 
-  <img src="cover01.JPG" alt="Weather app" width="auto">
+  <img src="09!!!.jpg" alt="Weather app" width="auto">
 </div>
 
 <!-- ABOUT THE PROJECT -->
